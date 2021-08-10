@@ -1,0 +1,50 @@
+$ ls
+ AngryBirdsStage2.5StudentActivity/  'GitHub Desktop.lnk'*  'Google Chrome.lnk'*   Projects/   UltraISO.lnk*  'Visual Studio Code.lnk'*   desktop.ini
+
+hp@DESKTOP-IFBSEA7 MINGW64 ~/Desktop
+$ cd angryBirdStage2/
+bash: cd: angryBirdStage2/: No such file or directory
+
+hp@DESKTOP-IFBSEA7 MINGW64 ~/Desktop
+$ cd  AngryBirdsStage2.5StudentActivity/
+
+hp@DESKTOP-IFBSEA7 MINGW64 ~/Desktop/AngryBirdsStage2.5StudentActivity (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   sketch.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hp@DESKTOP-IFBSEA7 MINGW64 ~/Desktop/AngryBirdsStage2.5StudentActivity (master)
+$ git add sketch.js
+
+hp@DESKTOP-IFBSEA7 MINGW64 ~/Desktop/AngryBirdsStage2.5StudentActivity (master)
+$ git commit -m "add platform"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DESKTOP-IFBSEA7.(none)')
+
+hp@DESKTOP-IFBSEA7 MINGW64 ~/Desktop/AngryBirdsStage2.5StudentActivity (master)
+$ git commit-m "add platform"
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+hp@DESKTOP-IFBSEA7 MINGW64 ~/Desktop/AngryBirdsStage2.5StudentActivity (master)
+$
